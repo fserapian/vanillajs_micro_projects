@@ -1,0 +1,63 @@
+:root {
+  --main-color: #1a237e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: var(--main-color);
+}
+
+p {
+  text-align: center;
+  color: #777;
+}
+
+.rate-container {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  color: #fff;
+  background-color: var(--main-color);
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.currency {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currency select {
+  padding: 5px 10px 5px 5px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  outline: none;
+}
+
+.currency input {
+  text-align: right;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}

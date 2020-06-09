@@ -7,7 +7,7 @@ const seats = document.querySelectorAll('.row .seat:not(.occupied)');
 // Populate UI
 populateUI();
 
-let ticketPrice = +movieSelect.value;
+ let ticketPrice = +movieSelect.value;
 
 // Save selected movie index and price
 function setMovieData(movieIndex, moviePrice) {
